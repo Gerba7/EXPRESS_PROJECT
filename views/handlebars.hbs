@@ -1,0 +1,16 @@
+<h1>{{caption}}</h1>
+<img src="site/images/skimountain.jpg" alt="Ski mountain">
+
+// when you run express server, the templating engine replaces these variables marked with curly braces with actual values
+transforms the document which we call a template to an html file to be rendered by the browser
+
+Allows to populate our HTML with data before its sent to the client 
+
+npm install hbs --save(to save as dependency in JSON)   (templating engine) dont need to import or require
+
+app.set()  / how we set the diff parameters in our app(how server handle router ex case sensitive etc) , and templating engines
+views  view wngine
+
+create a route which serves our handlebars template
+
+// this file is no longer html, it needs to be rendered by the template engine, needs to be rendered by handlebars before it gets to client
